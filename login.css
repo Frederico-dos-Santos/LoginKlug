@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    background: -webkit-linear-gradient(left, #ff6e7f, #82d3ff);
+    overflow-x: hidden;
+    align-items: center;   
+    font-family: Arial, Helvetica, sans-serif; 
+  
+}
+
+.klug-info {
+    background-color: #ff6e7f;
+    padding: 40px 30px 40px 30px;
+    margin: none;
+    border: none;
+    border-radius: 0 30px 30px 0;
+}
+
+#logo{
+    width: 400px;
+    height: 300px;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+#login-column{
+    background-color:white;
+    padding: 40px 0 40px 70px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+}
+.login{
+    padding: 250px 250px 0px 0px;
+}
+.login-card{
+    justify-content: center;
+    align-items: center;  
+}
+.slogan strong{
+    color: white;
+    font-size: 15px;
+    text-align:center;
+    padding: 20px;
+}
+
+
+.modal-header {
+    text-align: center;
+    background: #ff6e7f;
+    padding: 10px 0 10px 220px;
+}
+
+.klugNovoUsuario img {
+    width:70px;
+    animation: rotation 2s infinite linear;
+}
+    @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.preencher h3{
+    color: rgb(226, 55, 43);
+    text-align: center;
+    
+}
+.preencher h6{
+    color: rgb(226, 55, 43);
+}
+.cabecalho{
+    display: flex;
+}
+.close span{
+    padding-left:160px;
+    float:right;
+}
+
+
+.botoesBaixo{
+    padding:10px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.newUser{
+    display: block;
+}
+.submit{
+    display: block;
+}
+#login-box1{
+    padding-top: 50px;
+}
+
+
