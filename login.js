@@ -1,10 +1,4 @@
-//
-//
-// Disciplina: Trabalho Interdisciplinar - Aplicações Web
-// Professor: Rommel Vieira Carneiro (rommelcarneiro@gmail.com)
-//
-// Código LoginApp utilizado como exemplo para alunos de primeiro período 
-
+// Código JavaScript - Login Klug
 
 // Página inicial de Login
 const LOGIN_URL = "login.html";

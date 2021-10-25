@@ -72,12 +72,12 @@ body {
   }
 
 .preencher h3{
-    color: rgb(226, 55, 43);
+    color: #ff6e7f;
     text-align: center;
     
 }
 .preencher h6{
-    color: rgb(226, 55, 43);
+    color: #ff6e7f;
 }
 .cabecalho{
     display: flex;
@@ -102,5 +102,162 @@ body {
 #login-box1{
     padding-top: 50px;
 }
+#btn_salvar{
+    background-color: #ff6e7f;
+    border: red;
+}
+#btn_salvar:hover{
+    background-color: #fa4358;
+}
+.btn-secondary{
+    color:white;
+    background-color: #82d3ff;
+    border: blue;
+}
+.btn-secondary:hover{
+    background-color:rgb(72, 177, 233);
+}
+.mobile{
+    display:none;
+}
+.pergunta p{
+    display: none;
+}
 
+@media screen and (min-width: 240px) and (max-width: 500px){
+    body{
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    background:#ff6e7f;
+    }
+    .login{
+        width: 100%;
+        padding: 0px;  
+        padding-bottom:100px;    
+    }
+    .klug-info {
+       width:100%;
+       border-radius: 0px;
+       display: flex;
+    }
+    #logo{
+        width:100%;
+        padding: 40px 20px 15px 20px;
+    }
+    .slogan strong{
+        font-size: 20px;
+        padding: 30px 20px 50px 20px;
+        text-align: center;
+    }
+    
+    .pergunta p{
+        display: inline-block;
+        color: white;
+        padding: 50px 20px 30px 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .mobile{
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        justify-content: space-around;
+    }
+    .mobile button{
+        color: white;
+        background-color: rgb(72, 177, 233);
+    }
+    #login-column{
+        display: hidden;
+        border-radius:0px;
+        padding: 40px 20px 100px 20px;
+    }
+    .botoesBaixo{
+        display: inline-block;
+        align-items: center;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    .modal-header{
+        padding: 10px 40px 10px 40px;
+    }
+    .close span{ 
+        float:top;
+    }
+    .klugNovoUsuario img {
+        width:20%;      
+}
 
+@media screen and (min-width: 501px) and (max-width: 1000px){
+    body{
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        }
+        .login{
+            width: 100%;
+            padding: 0px;  
+            padding-bottom:100px;    
+        }
+        .klug-info {
+           width:100%;
+           border-radius: 0px;
+           display: flex;
+        }
+        #logo{
+            width:100%;
+            padding: 40px 20px 15px 20px;
+        }
+        .slogan strong{
+            font-size: 20px;
+            padding: 30px 20px 50px 20px;
+            text-align: center;
+        }
+        
+        .pergunta p{
+            display: inline-block;
+            color: white;
+            padding: 50px 20px 30px 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .mobile{
+            display: flex;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            justify-content: space-around;
+        }
+        .mobile button{
+            color: white;
+            background-color: rgb(72, 177, 233);
+        }
+        #login-column{
+            display: hidden;
+            border-radius:0px;
+            padding: 40px 20px 100px 20px;
+        }
+        .botoesBaixo{
+            display: inline-block;
+            align-items: center;
+            justify-content:space-between;
+            padding: 10px;
+        }
+        .modal-header{
+            padding: 10px 40px 10px 40px;
+        }
+        .close span{ 
+            float:top;
+        }
+        .klugNovoUsuario img {
+            width:20%;      
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px){
+
+    body{
+        width: 90%;
+    }
+}
+}
