@@ -7,6 +7,8 @@ body {
   
 }
 
+/* row referente à secção direita da página
+com logo e slogan*/
 .klug-info {
     background-color: #ff6e7f;
     padding: 40px 30px 40px 30px;
@@ -31,6 +33,17 @@ body {
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
 }
+.slogan strong{
+    color: white;
+    font-size: 15px;
+    text-align:center;
+    padding: 20px;
+}
+.mobile{
+    display:none;
+}
+/* row referente à secção esquerda da página
+com o formulário*/
 #login-column{
     background-color:white;
     padding: 40px 0 40px 70px;
@@ -44,14 +57,12 @@ body {
     justify-content: center;
     align-items: center;  
 }
-.slogan strong{
-    color: white;
-    font-size: 15px;
-    text-align:center;
-    padding: 20px;
+.botoesBaixo{
+    padding:10px;
+    display:flex;
+    justify-content:space-evenly;
 }
-
-
+/*row referente à secção de novo usuário*/
 .modal-header {
     text-align: center;
     background: #ff6e7f;
@@ -86,13 +97,6 @@ body {
     padding-left:160px;
     float:right;
 }
-
-
-.botoesBaixo{
-    padding:10px;
-    display:flex;
-    justify-content:space-evenly;
-}
 .newUser{
     display: block;
 }
@@ -117,13 +121,10 @@ body {
 .btn-secondary:hover{
     background-color:rgb(72, 177, 233);
 }
-.mobile{
-    display:none;
-}
 .pergunta p{
     display: none;
 }
-
+/* adaptação para telas pequenas*/
 @media screen and (min-width: 240px) and (max-width: 500px){
     body{
     align-items: center;
@@ -188,12 +189,14 @@ body {
     .klugNovoUsuario img {
         width:20%;      
 }
-
+}
+/*adaptação para telas médias*/
 @media screen and (min-width: 501px) and (max-width: 1000px){
     body{
         align-items: center;
         width: 100%;
         padding: 0px;
+        background:#ff6e7f;
         }
         .login{
             width: 100%;
@@ -211,21 +214,22 @@ body {
         }
         .slogan strong{
             font-size: 20px;
-            padding: 30px 20px 50px 20px;
+            padding: 50px 20px 50px 20px;
             text-align: center;
         }
         
         .pergunta p{
             display: inline-block;
             color: white;
-            padding: 50px 20px 30px 20px;
+            margin: 0px;
+            padding: 50px 20px 50px 80px;
             text-align: center;
-            font-size: 18px;
+            font-size: 20px;
         }
         .mobile{
             display: flex;
             padding-top: 50px;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
             justify-content: space-around;
         }
         .mobile button{
@@ -235,7 +239,7 @@ body {
         #login-column{
             display: hidden;
             border-radius:0px;
-            padding: 40px 20px 100px 20px;
+            padding: 20px;
         }
         .botoesBaixo{
             display: inline-block;
@@ -253,11 +257,10 @@ body {
             width:20%;      
     }
 }
-
+/*adaptação para telas grandes*/
 @media screen and (min-width: 1001px) and (max-width: 1400px){
 
     body{
-        width: 90%;
+        width: 100%;
     }
-}
 }

@@ -1,4 +1,6 @@
 // Código JavaScript - Login Klug
+// Código fonte: https://replit.com/@rommelpuc/LoginApp
+
 
 // Página inicial de Login
 const LOGIN_URL = "login.html";
